@@ -22,14 +22,14 @@ to the Additional Boards Manager URLs in the `Preferences->Settings`.
 
 Use the Boards Manager to search for and install the "SiFive" boards.
 
-# Select Your Board #
+# Setup Your Board #
 
-Select the board:
+## Select the board: ##
 ```
 Tools->Board->HiFive1
 ```
 
-# Select OpenOCD as the Programmer #
+## Select OpenOCD as the Programmer ##
 ```
 Tools->Programmer->SiFive OpenOCD
 ```
@@ -38,12 +38,12 @@ Tools->Programmer->SiFive OpenOCD
 
 ## Basic Example ##
 
-Select the 'File->Examples->Basics->Blink' built-in example.
+Select the `File->Examples->Basics->Blink` built-in example.
 
 Hit the "Verify" button to test the program compiles,
 then "Upload" to program to your board. The green LED should blink.
 
-## `RGB lead fade` Example ##
+## rgb_lead_fade Example ##
 
 The example, achieves the same fade effect as in the led_fade example come with Freedom Studio.
 
