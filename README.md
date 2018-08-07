@@ -14,7 +14,9 @@ This repository allows to program Freedom E300 boards using the Arduino IDE on *
 ## Install USB driver
 
 Connect HiFive1 board to computer by USB cable.
+
 Download HiFive1_Driver [https://github.com/MichaelZaidman/CincoWinPkg/releases/download/v1.1/HiFive1_Driver.exe](https://github.com/MichaelZaidman/CincoWinPkg/releases/download/v1.1/HiFive1_Driver.exe)
+
 Install HiFive1_Driver.
 
 ## Install Arduino ##
@@ -56,8 +58,12 @@ then "Upload" to program to your board. The green LED should blink.
 ## RGB LED Examples ##
 
 The RGB Blink example:
-`File->Examples->RGB LED->RgbLedBlinkByLib`
+```
+File->Examples->RGB LED->RgbLedBlinkByLib
+```
 
 The below examples achieve the same fade effect as in the led_fade example supplied with Freedom Studio.
-`File->Examples->RGB LED->RgbLedFade`
-`File->Examples->RGB LED->RgbLedFadeByLib`
+```
+File->Examples->RGB LED->RgbLedFade
+File->Examples->RGB LED->RgbLedFadeByLib
+```
