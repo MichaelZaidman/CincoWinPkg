@@ -11,6 +11,12 @@ This repository allows to program Freedom E300 boards using the Arduino IDE on *
 
 # Setup on Windows OS #
 
+## Install USB driver
+
+Connect HiFive1 board to computer by USB cable.
+Download HiFive1_Driver [https://github.com/MichaelZaidman/CincoWinPkg/releases/download/v1.1/HiFive1_Driver.exe](https://github.com/MichaelZaidman/CincoWinPkg/releases/download/v1.1/HiFive1_Driver.exe)
+Install HiFive1_Driver.
+
 ## Install Arduino ##
 
 Download and install Arduino IDE tarball from the Arduino website. Unpack it and run their installation script as directed.
@@ -28,6 +34,10 @@ Use the Boards Manager to search for and install the "SiFive" boards.
 ```
 Tools->Board->HiFive1
 ```
+## Select serial COM port: ##
+```
+Tools->Port
+```
 
 ## Select OpenOCD as the Programmer ##
 ```
@@ -43,8 +53,11 @@ Select the `File->Examples->Basics->Blink` built-in example.
 Hit the "Verify" button to test the program compiles,
 then "Upload" to program to your board. The green LED should blink.
 
-## rgb_lead_fade Example ##
+## RGB LED Examples ##
 
-This example achieves the same fade effect as in the led_fade example supplied with Freedom Studio.
+The RGB Blink example:
+`File->Examples->RGB LED->RgbLedBlinkByLib`
 
-`File->Open` and select `C:\Users\<user>\AppDAta\Local\Arduino15\packages\sifive\hardware\riscv\1.0.3\freedom-e-sdk\software\arduino\rgb_led_fade\rgb_led_fade.ino`
+The below examples achieve the same fade effect as in the led_fade example supplied with Freedom Studio.
+`File->Examples->RGB LED->RgbLedFade`
+`File->Examples->RGB LED->RgbLedFadeByLib`
