@@ -12,6 +12,32 @@
         {
             "category": "SiFive", 
             "name": "SiFive Freedom Boards", 
+            "version": "1.0.4", 
+            "url": "https://github.com/MichaelZaidman/CincoWinPkg/releases/download/v1.1/sifive-1.0.4-6de6694.tar.bz2",
+            "checksum": "SHA-256:ae74849293872b74e8f7ea7c344db730285536ca182272ddc1c604b1eecf91a5",
+            "archiveFileName": "sifive-1.0.4-6de6694.tar.bz2",
+            "size": "88177",
+            "architecture": "riscv", 
+            "boards": [
+            {"name": "HiFive1"}, 
+            {"name": "Freedom E300 Arty DevKit"} 
+            ], 
+            "toolsDependencies": [
+            {
+                "packager": "sifive", 
+                "version": "3f7b3696", 
+                "name": "riscv64-unknown-elf-gcc"
+            }, 
+            {
+                "packager": "sifive", 
+                "version": "9bab0782d313679bb0bfb634e6e87c757b8d5503", 
+                "name": "openocd"
+            }
+            ]
+        }, 
+        {
+            "category": "SiFive", 
+            "name": "SiFive Freedom Boards", 
             "version": "1.0.3", 
             "url": "https://github.com/MichaelZaidman/CincoWinPkg/releases/download/v1.0/sifive-1.0.3-8ee67a1.tar.bz2",
             "checksum": "SHA-256:82fcfc1865f06549ec5220a859bd799da0f36fe56e9d8afc2c40cee5994ca925",
